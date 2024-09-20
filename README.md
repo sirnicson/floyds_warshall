@@ -2,14 +2,14 @@
 
 ## Overview
 
-This project implements Floyd-Warshall's algorithm to compute the shortest paths between all pairs of nodes in a graph. The key objective is to implement the algorithm both **recursively** and **iteratively**, and then compare their performance. This repository contains:
+This project implements Floyd-Warshall's algorithm to compute the shortest paths between all pairs of nodes in a graph. The key objective is to implement the algorithm both recursively and iteratively, and then compare their performance. This repository contains:
 
-- Recursive implementation of Floyd-Warshall (`recursive_floyd.py`)
-- Iterative implementation of Floyd-Warshall (`iterative_floyd.py`)
+- Recursive implementation of Floyd-Warshall (recursive_floyd.py)
+- Iterative implementation of Floyd-Warshall (iterative_floyd.py)
 - Unittests to verify correctness
 - Performance tests to compare efficiency
 
-## Project Structure
+## Project Structure                            
 
 ```plaintext
 .
@@ -24,82 +24,6 @@ This project implements Floyd-Warshall's algorithm to compute the shortest paths
 ├── README.md                         # Project documentation
 ├── requirements.txt                  # Project dependencies for installation
 
-
-## Key Files:
-
-1. **`recursive_floyd.py`**:
-   - Implements the Floyd-Warshall algorithm recursively without using loops. The graph is defined as an adjacency matrix, and the algorithm calculates the shortest path by recursively updating paths between each node.
-
-2. **`iterative_floyd.py`**:
-   - Traditional iterative version of Floyd-Warshall with three nested loops to update the shortest paths between all pairs of nodes.
-
-3. **`performance_test.py`**:
-   - Compares the performance of both recursive and iterative versions using randomly generated graph data.
-
-4. **`unittests.py`**:
-   - Contains unit tests to verify the correctness of the shortest path results from both versions of the algorithm.
-
-## Installation
-
-To set up the project on your local machine:
+```plaintext
 
 
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/sirnicson/floyds_warshall.git
-
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd floyds_warshall
-
-
-3. Create a virtual environment and activate it:                                                                         
-   ```bash
-   python -m venv venv
-
-   ```bash
-   source venv/bin/activate
-
-
-4. Install the dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-
-
-## Usage
-
-
-1. To run the recursive version of Floyd-Warshall, execute:
-
-   ```bash
-   python3 -m src.recursion.recursive_floyd
-
-
-2. To run the iterative version of Floyd-Warshall, execute:
-                                                   
-   ```bash
-   python3 -m src.iterative.iterative_floyd
-
-3. To verify the correctness of both versions, run the unit tests:
-
-   ```bash
-   python3 -m src.tests.unittests
-
-
-4. To compare the performance of the recursive and iterative implementations, run the performance test script.
-
-   ```bash
-   python3 -m src.tests.performance_test
-
-   This will output the time taken by each implementation for processing a randomly generated graph
-
-
-
-## Author
-
-
-   sirnicson

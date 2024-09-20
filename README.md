@@ -54,7 +54,7 @@ cd floyds_warshall
 
 Create a virtual environment and activate it:
 ```bash
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate
 ```
 

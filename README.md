@@ -42,7 +42,7 @@ This project implements Floyd-Warshall's algorithm to compute the shortest paths
 To set up the project on your local machine:
 
 Clone this repository: 
-- git clone https://github.com/sirnicson/floyds_warshall.git
+- **`git clone https://github.com/sirnicson/floyds_warshall.git`**
 
 Navigate to the project directory:
 

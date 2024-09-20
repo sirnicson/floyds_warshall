@@ -46,30 +46,30 @@ Clone this repository:
 
 Navigate to the project directory:
 
-- cd floyds_warshall
+- **`cd floyds_warshall`**
 
 Create a virtual environment and activate it:
-- python -m venv venv
-- source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+- **`python -m venv venv`**
+- **`source venv/bin/activate  # On Windows use `venv\Scripts\activate``**
 
 Install the dependencies:
-- pip install -r requirements.txt
+-  **`pip install -r requirements.txt`**
 
 
 ## Usage
 
 Running the Recursive Floyd-Warshall Algorithm To run the recursive version of Floyd-Warshall, execute:
-- python3 -m src.recursion.recursive_floyd
+-  **`python3 -m src.recursion.recursive_floyd`**
 
 Running the Iterative Floyd-Warshall Algorithm To run the iterative version of Floyd-Warshall, execute:
-- python3 -m src.iterative.iterative_floyd
+-  **`python3 -m src.iterative.iterative_floyd`**
 
 Running Unit Tests To verify the correctness of both versions, run the unit tests:
-- python3 -m src.tests.unittests
+-  **`python3 -m src.tests.unittests`**
 
 Running Performance Tests To compare the performance of the recursive and iterative implementations,
 run the performance test script:
-- python3 -m src.tests.performance_test
+-  **`python3 -m src.tests.performance_test`**
 
 ## Author
 sirnicson

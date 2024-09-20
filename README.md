@@ -70,6 +70,10 @@ Running Unit Tests To verify the correctness of both versions, run the unit test
 Running Performance Tests To compare the performance of the recursive and iterative implementations,
 run the performance test script:
 -  **`python3 -m src.tests.performance_test`**
+  
+![flow chart](https://github.com/user-attachments/assets/1acd6a97-ec71-48d8-b6f0-a003db26ced9)
 
 ## Author
 sirnicson
+
+

@@ -10,7 +10,7 @@ This project implements Floyd-Warshall's algorithm to compute the shortest paths
 - Performance tests to compare efficiency
 
 ## Project Structure
-
+```plaintext
 .
 ├── src
 │   ├── recursion
@@ -22,6 +22,7 @@ This project implements Floyd-Warshall's algorithm to compute the shortest paths
 │   │   └── unittests.py              # Unit tests to check correctness of both versions
 ├── README.md                         # Project documentation (you are currently creating)
 ├── requirements.txt                  # Project dependencies for installation
+```
 
 ## Key Files:
 

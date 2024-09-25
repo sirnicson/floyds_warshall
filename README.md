@@ -20,7 +20,7 @@ This project implements Floyd-Warshall's algorithm to compute the shortest paths
 │   ├── tests
 │   │   ├── performance_test.py       # Performance tests comparing recursive and iterative versions
 │   │   └── unittests.py              # Unit tests to check correctness of both versions
-├── README.md                         # Project documentation (you are currently creating)
+├── README.md                         # Project documentation
 ├── requirements.txt                  # Project dependencies for installation
 ```
 
